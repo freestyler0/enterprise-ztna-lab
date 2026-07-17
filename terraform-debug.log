@@ -1,0 +1,106 @@
+2026-07-16T14:57:06.128+0300 [INFO]  Terraform version: 1.15.8
+2026-07-16T14:57:06.131+0300 [DEBUG] using github.com/hashicorp/go-tfe v1.105.0
+2026-07-16T14:57:06.131+0300 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-07-16T14:57:06.131+0300 [DEBUG] using github.com/hashicorp/terraform-svchost v0.2.1
+2026-07-16T14:57:06.131+0300 [DEBUG] using github.com/zclconf/go-cty v1.18.0
+2026-07-16T14:57:06.131+0300 [INFO]  Go runtime version: go1.25.10
+2026-07-16T14:57:06.131+0300 [INFO]  CLI args: []string{"C:\\Users\\David.Lukanov\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Hashicorp.Terraform_Microsoft.Winget.Source_8wekyb3d8bbwe\\terraform.exe", "plan"}
+2026-07-16T14:57:06.144+0300 [DEBUG] Attempting to open CLI config file: C:\Users\David.Lukanov\AppData\Roaming\terraform.rc
+2026-07-16T14:57:06.145+0300 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2026-07-16T14:57:06.146+0300 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2026-07-16T14:57:06.146+0300 [DEBUG] ignoring non-existing provider search directory C:\Users\David.Lukanov\AppData\Roaming\terraform.d\plugins
+2026-07-16T14:57:06.149+0300 [DEBUG] ignoring non-existing provider search directory C:\Users\David.Lukanov\AppData\Roaming\HashiCorp\Terraform\plugins
+2026-07-16T14:57:06.149+0300 [INFO]  CLI command args: []string{"plan"}
+2026-07-16T14:57:06.936+0300 [DEBUG] checking for provisioner in "."
+2026-07-16T14:57:06.936+0300 [DEBUG] checking for provisioner in "C:\\Users\\David.Lukanov\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Hashicorp.Terraform_Microsoft.Winget.Source_8wekyb3d8bbwe"
+2026-07-16T14:57:06.978+0300 [INFO]  backend/local: starting Plan operation
+2026-07-16T14:57:08.375+0300 [DEBUG] ReferenceTransformer: "var.client_id" references: []
+2026-07-16T14:57:08.376+0300 [DEBUG] ReferenceTransformer: "var.client_secret" references: []
+2026-07-16T14:57:08.376+0300 [DEBUG] ReferenceTransformer: "var.customer_id" references: []
+2026-07-16T14:57:08.376+0300 [DEBUG] ReferenceTransformer: "var.vanity_domain" references: []
+2026-07-16T14:57:08.376+0300 [DEBUG] ReferenceTransformer: "var.zscaler_cloud" references: []
+2026-07-16T14:57:08.376+0300 [DEBUG] Starting graph walk: walkInit
+2026-07-16T14:57:08.377+0300 [DEBUG] created provider logger: level=debug
+2026-07-16T14:57:08.377+0300 [INFO]  provider: configuring client automatic mTLS
+2026-07-16T14:57:08.397+0300 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/zscaler/zpa/4.4.7/windows_amd64/terraform-provider-zpa_v4.4.7.exe args=[".terraform/providers/registry.terraform.io/zscaler/zpa/4.4.7/windows_amd64/terraform-provider-zpa_v4.4.7.exe"]
+2026-07-16T14:57:09.076+0300 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/zscaler/zpa/4.4.7/windows_amd64/terraform-provider-zpa_v4.4.7.exe pid=21312
+2026-07-16T14:57:09.077+0300 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/zscaler/zpa/4.4.7/windows_amd64/terraform-provider-zpa_v4.4.7.exe
+2026-07-16T14:57:09.129+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe: ZPA Terraform Provider
+2026-07-16T14:57:09.129+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe
+2026-07-16T14:57:09.129+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe: Version 4.4.6
+2026-07-16T14:57:09.129+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe
+2026-07-16T14:57:09.129+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe: https://registry.terraform.io/providers/zscaler/zpa/latest/docs
+2026-07-16T14:57:09.129+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe
+2026-07-16T14:57:09.134+0300 [INFO]  provider.terraform-provider-zpa_v4.4.7.exe: configuring server automatic mTLS: timestamp="2026-07-16T14:57:09.132+0300"
+2026-07-16T14:57:09.150+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe: plugin address: address=127.0.0.1:10000 network=tcp timestamp="2026-07-16T14:57:09.150+0300"
+2026-07-16T14:57:09.150+0300 [DEBUG] provider: using plugin: version=5
+2026-07-16T14:57:09.225+0300 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2026-07-16T14:57:09.238+0300 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/zscaler/zpa/4.4.7/windows_amd64/terraform-provider-zpa_v4.4.7.exe id=21312
+2026-07-16T14:57:09.238+0300 [DEBUG] provider: plugin exited
+2026-07-16T14:57:09.239+0300 [DEBUG] Building and walking validate graph
+2026-07-16T14:57:09.239+0300 [DEBUG] ProviderTransformer: "zpa_segment_group.terraform_lab" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/zscaler/zpa"]
+2026-07-16T14:57:09.240+0300 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/zscaler/zpa\"]" references: [var.client_id var.client_secret var.vanity_domain var.customer_id var.zscaler_cloud]
+2026-07-16T14:57:09.240+0300 [DEBUG] ReferenceTransformer: "zpa_segment_group.terraform_lab" references: []
+2026-07-16T14:57:09.240+0300 [DEBUG] ReferenceTransformer: "var.client_secret" references: []
+2026-07-16T14:57:09.240+0300 [DEBUG] ReferenceTransformer: "var.customer_id" references: []
+2026-07-16T14:57:09.240+0300 [DEBUG] ReferenceTransformer: "var.vanity_domain" references: []
+2026-07-16T14:57:09.240+0300 [DEBUG] ReferenceTransformer: "var.zscaler_cloud" references: []
+2026-07-16T14:57:09.240+0300 [DEBUG] ReferenceTransformer: "var.client_id" references: []
+2026-07-16T14:57:09.241+0300 [DEBUG] Starting graph walk: walkValidate
+2026-07-16T14:57:09.243+0300 [DEBUG] created provider logger: level=debug
+2026-07-16T14:57:09.243+0300 [INFO]  provider: configuring client automatic mTLS
+2026-07-16T14:57:09.256+0300 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/zscaler/zpa/4.4.7/windows_amd64/terraform-provider-zpa_v4.4.7.exe args=[".terraform/providers/registry.terraform.io/zscaler/zpa/4.4.7/windows_amd64/terraform-provider-zpa_v4.4.7.exe"]
+2026-07-16T14:57:09.431+0300 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/zscaler/zpa/4.4.7/windows_amd64/terraform-provider-zpa_v4.4.7.exe pid=3216
+2026-07-16T14:57:09.431+0300 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/zscaler/zpa/4.4.7/windows_amd64/terraform-provider-zpa_v4.4.7.exe
+2026-07-16T14:57:09.476+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe: ZPA Terraform Provider
+2026-07-16T14:57:09.476+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe
+2026-07-16T14:57:09.476+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe: Version 4.4.6
+2026-07-16T14:57:09.476+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe
+2026-07-16T14:57:09.476+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe: https://registry.terraform.io/providers/zscaler/zpa/latest/docs
+2026-07-16T14:57:09.476+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe
+2026-07-16T14:57:09.481+0300 [INFO]  provider.terraform-provider-zpa_v4.4.7.exe: configuring server automatic mTLS: timestamp="2026-07-16T14:57:09.479+0300"
+2026-07-16T14:57:09.519+0300 [DEBUG] provider: using plugin: version=5
+2026-07-16T14:57:09.519+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe: plugin address: address=127.0.0.1:10000 network=tcp timestamp="2026-07-16T14:57:09.519+0300"
+2026-07-16T14:57:09.558+0300 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2026-07-16T14:57:09.569+0300 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/zscaler/zpa/4.4.7/windows_amd64/terraform-provider-zpa_v4.4.7.exe id=3216
+2026-07-16T14:57:09.569+0300 [DEBUG] provider: plugin exited
+2026-07-16T14:57:09.569+0300 [INFO]  backend/local: plan calling Plan
+2026-07-16T14:57:09.569+0300 [DEBUG] Building and walking plan graph for NormalMode
+2026-07-16T14:57:09.570+0300 [DEBUG] ProviderTransformer: "zpa_segment_group.terraform_lab (expand)" (*terraform.nodeExpandPlannableResource) needs provider["registry.terraform.io/zscaler/zpa"]
+2026-07-16T14:57:09.570+0300 [DEBUG] ReferenceTransformer: "var.zscaler_cloud" references: []
+2026-07-16T14:57:09.570+0300 [DEBUG] ReferenceTransformer: "var.client_id" references: []
+2026-07-16T14:57:09.570+0300 [DEBUG] ReferenceTransformer: "var.client_secret" references: []
+2026-07-16T14:57:09.570+0300 [DEBUG] ReferenceTransformer: "var.customer_id" references: []
+2026-07-16T14:57:09.570+0300 [DEBUG] ReferenceTransformer: "var.vanity_domain" references: []
+2026-07-16T14:57:09.570+0300 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/zscaler/zpa\"]" references: [var.vanity_domain var.customer_id var.zscaler_cloud var.client_id var.client_secret]
+2026-07-16T14:57:09.570+0300 [DEBUG] ReferenceTransformer: "zpa_segment_group.terraform_lab (expand)" references: []
+2026-07-16T14:57:09.570+0300 [DEBUG] Starting graph walk: walkPlan
+2026-07-16T14:57:09.572+0300 [DEBUG] created provider logger: level=debug
+2026-07-16T14:57:09.572+0300 [INFO]  provider: configuring client automatic mTLS
+2026-07-16T14:57:09.585+0300 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/zscaler/zpa/4.4.7/windows_amd64/terraform-provider-zpa_v4.4.7.exe args=[".terraform/providers/registry.terraform.io/zscaler/zpa/4.4.7/windows_amd64/terraform-provider-zpa_v4.4.7.exe"]
+2026-07-16T14:57:09.777+0300 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/zscaler/zpa/4.4.7/windows_amd64/terraform-provider-zpa_v4.4.7.exe pid=8944
+2026-07-16T14:57:09.777+0300 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/zscaler/zpa/4.4.7/windows_amd64/terraform-provider-zpa_v4.4.7.exe
+2026-07-16T14:57:09.808+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe: ZPA Terraform Provider
+2026-07-16T14:57:09.808+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe
+2026-07-16T14:57:09.808+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe: Version 4.4.6
+2026-07-16T14:57:09.808+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe
+2026-07-16T14:57:09.808+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe: https://registry.terraform.io/providers/zscaler/zpa/latest/docs
+2026-07-16T14:57:09.808+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe
+2026-07-16T14:57:09.812+0300 [INFO]  provider.terraform-provider-zpa_v4.4.7.exe: configuring server automatic mTLS: timestamp="2026-07-16T14:57:09.810+0300"
+2026-07-16T14:57:09.840+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe: plugin address: address=127.0.0.1:10000 network=tcp timestamp="2026-07-16T14:57:09.840+0300"
+2026-07-16T14:57:09.840+0300 [DEBUG] provider: using plugin: version=5
+2026-07-16T14:57:09.859+0300 [INFO]  provider.terraform-provider-zpa_v4.4.7.exe: Initializing Zscaler client: timestamp="2026-07-16T14:57:09.859+0300"
+2026-07-16T14:57:09.859+0300 [INFO]  provider.terraform-provider-zpa_v4.4.7.exe: Initializing ZPA V3 client: timestamp="2026-07-16T14:57:09.859+0300"
+2026-07-16T14:57:09.860+0300 [DEBUG] provider.terraform-provider-zpa_v4.4.7.exe: SDK debug logging enabled: timestamp="2026-07-16T14:57:09.859+0300"
+2026-07-16T14:57:23.754+0300 [WARN]  terraform: Stop called, initiating interrupt sequence
+2026-07-16T14:57:23.754+0300 [WARN]  terraform: run context exists, stopping
+2026-07-16T14:57:23.754+0300 [INFO]  terraform: waiting for graceful stop to complete
+2026-07-16T14:57:27.776+0300 [WARN]  running operation was forcefully canceled
+2026-07-16T14:57:27.776+0300 [INFO]  backend/local: plan operation was force-cancelled by interrupt
+2026-07-16T14:57:27.778+0300 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2026-07-16T14:57:27.778+0300 [ERROR] plugin.(*GRPCProvider).ConfigureProvider: error="rpc error: code = Unavailable desc = error reading from server: EOF"
+2026-07-16T14:57:27.778+0300 [ERROR] vertex "provider[\"registry.terraform.io/zscaler/zpa\"]" error: Plugin did not respond
+2026-07-16T14:57:27.779+0300 [WARN]  Planning encountered errors, so plan is not applyable
+2026-07-16T14:57:27.779+0300 [WARN]  terraform: stop complete
+2026-07-16T14:57:27.785+0300 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/zscaler/zpa/4.4.7/windows_amd64/terraform-provider-zpa_v4.4.7.exe id=8944
+2026-07-16T14:57:27.785+0300 [DEBUG] provider: plugin exited

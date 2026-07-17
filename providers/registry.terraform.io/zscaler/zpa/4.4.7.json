@@ -1,0 +1,10 @@
+{
+  "archives": {
+    "windows_amd64": {
+      "hashes": [
+        "h1:Vzbk7HXaE8a07bkx2gdr0Xtu2xvRGaoVkf+LfmkUfIY="
+      ],
+      "url": "terraform-provider-zpa_4.4.7_windows_amd64.zip"
+    }
+  }
+}
