@@ -1,296 +1,126 @@
-\# Enterprise Zero Trust Architecture
+# Enterprise Zero Trust Architecture
 
+> A production-inspired Zero Trust environment integrating Cisco networking, VMware ESXi, Microsoft Active Directory, Microsoft Entra ID, Zscaler Private Access (ZPA), Wazuh SIEM, and Terraform Infrastructure as Code.
 
+![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4?logo=terraform)
+![VMware](https://img.shields.io/badge/VMware-ESXi-607078?logo=vmware)
+![Cisco](https://img.shields.io/badge/Cisco-Networking-1BA0D7?logo=cisco)
+![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-0055A4)
+![Zscaler](https://img.shields.io/badge/Zscaler-ZPA-0099E5)
+![Microsoft Entra ID](https://img.shields.io/badge/Microsoft-Entra_ID-0078D4)
 
-> A production-inspired enterprise security architecture demonstrating Zero Trust principles through modern networking, identity, secure application access, monitoring, and Infrastructure as Code.
+---
 
+# Enterprise Architecture
 
+> 🚧 Architecture diagram coming soon.
 
-\---
+---
 
+# Overview
 
+This project demonstrates the design and implementation of a production-inspired Enterprise Zero Trust Architecture using enterprise networking, hybrid identity, Zero Trust Network Access (ZTNA), security monitoring, and Infrastructure as Code.
 
-\## Executive Summary
+The environment integrates Cisco networking, VMware ESXi, Microsoft Active Directory, Microsoft Entra ID, Zscaler Private Access (ZPA), Wazuh SIEM, and Terraform to provide secure application access, centralized monitoring, and automated infrastructure deployment.
 
+---
 
+# Features
 
-This project demonstrates the design, implementation, and documentation of an Enterprise Zero Trust Architecture built within a virtual enterprise environment.
+- Identity-based Zero Trust access
+- Hybrid Active Directory and Microsoft Entra ID integration
+- Secure application access with Zscaler Private Access (ZPA)
+- Centralized security monitoring with Wazuh SIEM
+- Infrastructure as Code using Terraform
+- Enterprise network segmentation
+- VMware virtual infrastructure
+- Production-inspired enterprise architecture
 
+---
 
-
-The environment combines traditional enterprise infrastructure with modern Zero Trust technologies to protect internal applications, strengthen identity verification, centralize monitoring, and automate infrastructure deployment.
-
-
-
-The architecture follows the principle of \*\*"Never Trust, Always Verify"\*\*, ensuring that every access request is continuously authenticated and authorized regardless of network location.
-
-
-
-\---
-
-
-
-\## Project Objectives
-
-
-
-\- Design a production-inspired enterprise environment
-
-\- Implement Zero Trust Network Access (ZTNA)
-
-\- Integrate Microsoft Active Directory with Microsoft Entra ID
-
-\- Secure internal applications using Zscaler Private Access (ZPA)
-
-\- Deploy centralized security monitoring with Wazuh SIEM
-
-\- Automate infrastructure using Terraform
-
-\- Produce enterprise-grade technical documentation
-
-
-
-\---
-
-
-
-\## Architecture Overview
-
-
-
-> \*\*(Architecture diagrams will be added here.)\*\*
-
-
-
-\### Physical Topology
-
-
-
-\*Coming soon.\*
-
-
-
-\### Logical Topology
-
-
-
-\*Coming soon.\*
-
-
-
-\---
-
-
-
-\## Technology Stack
-
-
+# Technology Stack
 
 | Category | Technology |
-
 |----------|------------|
-
 | Firewall | Cisco ASA 5500 |
-
 | Router | Cisco ISR 2911 |
-
-| Switching | Cisco Catalyst 2960 |
-
-| Hypervisor | VMware ESXi |
-
+| Switch | Cisco Catalyst 2960 |
+| Virtualization | VMware ESXi |
 | Identity | Microsoft Active Directory |
-
 | Cloud Identity | Microsoft Entra ID |
-
 | Zero Trust | Zscaler Private Access (ZPA) |
-
 | SIEM | Wazuh |
-
 | Infrastructure as Code | Terraform |
 
-| Operating Systems | Windows Server, Ubuntu Server |
+---
 
-
-
-\---
-
-
-
-\## Infrastructure Components
-
-
-
-| Component | Status |
-
-|----------|---------|
-
-| Cisco ASA Firewall | ✅ |
-
-| Cisco 2911 Router | ✅ |
-
-| Cisco Catalyst Switch | ✅ |
-
-| VMware ESXi | ✅ |
-
-| Active Directory | ✅ |
-
-| DNS | ✅ |
-
-| IIS Web Server | ✅ |
-
-| Microsoft Entra ID | ✅ |
-
-| ZPA App Connector | ✅ |
-
-| Wazuh SIEM | ✅ |
-
-| Terraform Automation | ✅ |
-
-
-
-\---
-
-
-
-\## Project Structure
-
-
+# Repository Structure
 
 ```text
-
 enterprise-ztna-lab/
-
-
-
-docs/
-
-infrastructure/
-
-security/
-
-scripts/
-
-screenshots/
-
-.github/
-
+│
+├── docs/
+├── infrastructure/
+│   └── terraform/
+├── screenshots/
+├── README.md
+└── LICENSE
 ```
 
+---
 
+# Documentation
 
-\---
-
-
-
-\## Documentation
-
-
-
-| Section | Description |
-
-|---------|-------------|
-
-| Executive Summary | Project overview |
-
-| Business Requirements | Design goals |
-
-| Solution Architecture | Enterprise architecture |
-
-| Network Design | Physical \& logical networking |
-
+| Document | Description |
+|----------|-------------|
+| Executive Summary | Project goals and objectives |
+| Business Requirements | Business and security requirements |
+| Solution Architecture | High-level architecture |
+| Network Design | Enterprise network topology |
 | Active Directory | Identity infrastructure |
+| Microsoft Entra ID | Hybrid identity integration |
+| ZPA Deployment | Zero Trust application access |
+| Wazuh SIEM | Security monitoring |
+| Terraform IaC | Infrastructure automation |
+| Testing and Validation | Solution validation |
+| Lessons Learned | Project outcomes and future improvements |
 
-| Microsoft Entra ID | Cloud identity |
+---
 
-| ZPA Deployment | Zero Trust implementation |
+# Screenshots
 
-| Wazuh SIEM | Monitoring and detection |
+Screenshots will be added during the implementation phase and will include:
 
-| Terraform | Infrastructure automation |
+- VMware ESXi
+- Microsoft Active Directory
+- Microsoft Entra ID
+- ZPA Dashboard
+- App Connector
+- Client Connector
+- Wazuh Dashboard
+- Terraform Deployment
 
-| Testing \& Validation | Verification procedures |
+---
 
-| Lessons Learned | Challenges and improvements |
+# Future Improvements
 
+- High Availability App Connectors
+- Conditional Access Policies
+- Multi-Factor Authentication (MFA)
+- CI/CD for Terraform deployments
+- Additional protected applications
+- Expanded monitoring and alerting
 
+---
 
-\---
+# License
 
+This project is licensed under the MIT License.
 
+---
 
-\## Current Status
+# Author
 
+**David Lukanov**
 
-
-| Phase | Status |
-
-|------|--------|
-
-| Infrastructure Design | ✅ |
-
-| Networking | ✅ |
-
-| Active Directory | ✅ |
-
-| Entra ID Integration | ✅ |
-
-| ZPA Deployment | ✅ |
-
-| Wazuh Deployment | ✅ |
-
-| Terraform | ✅ |
-
-| Documentation | 🚧 In Progress |
-
-
-
-\---
-
-
-
-\## Roadmap
-
-
-
-\- Complete technical documentation
-
-\- Add architecture diagrams
-
-\- Add deployment guides
-
-\- Add validation procedures
-
-\- Add screenshots
-
-\- Expand Terraform automation
-
-\- Implement CI/CD workflows
-
-
-
-\---
-
-
-
-\## License
-
-
-
-This project is released under the MIT License.
-
-
-
-\---
-
-
-
-\## Author
-
-
-
-\*\*Deivid Lukanov\*\*
-
-
-
-Cybersecurity | Enterprise Infrastructure | Zero Trust | Network Security
-
+Enterprise Infrastructure • Zero Trust • Networking • Cybersecurity • Infrastructure as Code
