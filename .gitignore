@@ -37,3 +37,16 @@ Thumbs.db
 
 # Optional: Ignore provider lock file
 # .terraform.lock.hcl
+
+# Terraform debug logs
+terraform-debug.log
+
+# Environment files
+.env
+.env.*
+
+# Python cache (if you ever use scripts)
+__pycache__/
+
+# Log files
+*.log
