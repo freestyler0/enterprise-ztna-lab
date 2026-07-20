@@ -4,7 +4,7 @@
 
 \## Overview
 
-![ZPA](image-1.png) ![APP Connector](image-2.png) 
+![alt text](zpa-dashboard.png)
 
 Zscaler Private Access (ZPA) provides the Zero Trust Network Access (ZTNA) solution within the Enterprise Zero Trust Architecture.
 
@@ -170,7 +170,7 @@ The ZPA tenant provides:
 
 \## App Connector
 
-![APP Connector](image-2.png)
+![APP-Connector](App-connector.png-1.png)
 
 The App Connector is deployed within the internal network.
 
@@ -200,7 +200,7 @@ The App Connector never accepts inbound Internet connections.
 
 \## Client Connector
 
-![client connector](image-6.png)
+![Client-Connector](client-connector.png)
 
 The Client Connector is installed on endpoint devices.
 

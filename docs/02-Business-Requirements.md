@@ -1,6 +1,6 @@
 \# Business Requirements
 
-
+![alt text](AD-Users.png)
 
 \## Purpose
 

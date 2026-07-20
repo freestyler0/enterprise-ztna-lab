@@ -8,7 +8,7 @@
 
 Terraform is used to automate the deployment and management of supported Zscaler Private Access (ZPA) resources within the Enterprise Zero Trust Architecture.
 
-![Terraform plan](image-3.png)
+![Terraform plan](terraform-plan.png)
 
 Instead of manually configuring resources through the ZPA administration portal, Infrastructure as Code (IaC) enables repeatable, version-controlled, and consistent deployments.
 
