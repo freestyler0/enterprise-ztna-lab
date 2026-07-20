@@ -18,7 +18,7 @@ The hypervisor enables efficient resource utilization while providing logical is
 
 
 
-![alt text](image.png)
+![alt text](../../images/esxi-dashboard.png)
 
 
 

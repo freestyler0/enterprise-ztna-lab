@@ -1,6 +1,6 @@
 \# Executive Summary
 
-![ESXi](esxi-dashboard.png.png)
+![ESXi](images/esxi-dashboard.png)
 
 \## Overview
 

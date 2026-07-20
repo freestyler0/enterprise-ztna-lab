@@ -18,7 +18,7 @@ Within this architecture, Active Directory integrates with Microsoft Entra ID to
 
 
 
-![alt text](image.png)
+![alt text](images/ad-users.png)
 
 
 

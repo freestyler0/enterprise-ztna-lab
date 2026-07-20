@@ -8,7 +8,7 @@
 
 Wazuh provides the centralized Security Information and Event Management (SIEM) platform within the Enterprise Zero Trust Architecture.
 
-![Wazuh Dashboard](wazuh-dashboard.png) ![Wazuh APP](wazuh-app.png)
+![Wazuh Dashboard](images/wazuh-dashboard.png) ![Wazuh APP](images/wazuh-app.png)
 
 It collects, analyzes, and correlates security events from enterprise systems, enabling administrators to detect suspicious activity, monitor system health, and investigate potential security incidents.
 

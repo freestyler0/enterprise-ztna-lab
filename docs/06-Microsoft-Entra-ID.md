@@ -1,7 +1,7 @@
 \# Microsoft Entra ID
 
 
-![Entra ID](entra-overview.png)
+![Entra ID](images/entra-overview.png)
 
 Microsoft Entra ID serves as the cloud identity provider within the Enterprise Zero Trust Architecture.
 

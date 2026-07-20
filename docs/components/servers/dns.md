@@ -11,9 +11,9 @@ The DNS service is integrated with Active Directory and is responsible for:
 - Name resolution for application servers
 - Service discovery
 
-![DNS Manager](images/dns-manager.png)
+![DNS Manager](../../images/dns-manager.png)
 
 **Figure X.** Microsoft DNS Manager displaying the internal DNS zone and resource records used by the Enterprise Zero Trust Architecture.
 
 
-![DNS](image-1.png)
+![DNS](../../images/dns-manager.png)
