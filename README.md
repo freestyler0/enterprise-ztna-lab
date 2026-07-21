@@ -13,7 +13,7 @@
 
 # Enterprise Architecture
 
-> 🚧 Architecture diagram coming soon.
+![logical-physical-topology](logical-physical-topology.png)
 
 ---
 
@@ -122,6 +122,6 @@ This project is licensed under the MIT License.
 
 # Author
 
-**David Lukanov**
+**David Lukanov** **Nikolay Punchev**
 
 Enterprise Infrastructure • Zero Trust • Networking • Cybersecurity • Infrastructure as Code
