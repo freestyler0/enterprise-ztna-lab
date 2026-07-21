@@ -11,20 +11,6 @@
 
 ---
 
-# Enterprise Architecture
-
-![logical-physical topology](<logical-physical topology.png>)
-
-Logical and physical views of the Enterprise Zero Trust lab environment, including Cisco networking, VMware ESXi, Microsoft Active Directory, Microsoft Entra ID, Zscaler Private Access, and Wazuh SIEM.
----
-
-## Zero Trust Authentication Flow
-
-![Authentication Flow](authentication-flow.png)
-
-This diagram illustrates how a user authenticates through Microsoft Entra ID, how ZPA authorizes access, and how IIS uses Kerberos to validate the user's identity before granting access to the protected application.
-
-
 # Overview
 
 This project demonstrates the design and implementation of a production-inspired Enterprise Zero Trust Architecture using enterprise networking, hybrid identity, Zero Trust Network Access (ZTNA), security monitoring, and Infrastructure as Code.
@@ -33,7 +19,22 @@ The environment integrates Cisco networking, VMware ESXi, Microsoft Active Direc
 
 ---
 
+# Enterprise Architecture
 
+![logical-physical topology](<logical-physical topology.png>)
+
+Logical and physical views of the Enterprise Zero Trust lab environment, including Cisco networking, VMware ESXi, Microsoft Active Directory, Microsoft Entra ID, Zscaler Private Access (ZPA), and Wazuh SIEM.
+
+---
+
+
+## Zero Trust Authentication Flow
+
+![Authentication Flow](authentication-flow.png)
+
+This diagram illustrates how a user authenticates through Microsoft Entra ID, how ZPA authorizes access, and how IIS uses Kerberos to validate the user's identity before granting access to the protected application.
+
+---
 
 # Features
 
