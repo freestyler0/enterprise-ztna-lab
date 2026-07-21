@@ -28,7 +28,8 @@ The environment integrates Cisco networking, VMware ESXi, Microsoft Active Direc
 # Features
 
 - Identity-based Zero Trust access
-- Hybrid Active Directory and Microsoft Entra ID integration
+- Hybrid Active Directory (O
+n-premises - Microsoft Entra ID)
 - Secure application access with Zscaler Private Access (ZPA)
 - Centralized security monitoring with Wazuh SIEM
 - Infrastructure as Code using Terraform
