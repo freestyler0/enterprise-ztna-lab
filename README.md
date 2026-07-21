@@ -13,8 +13,7 @@
 
 # Enterprise Architecture
 
-![logical-physical-topology](logical-physical-topology.png)
-
+![logical-physical topology](<logical-physical topology.png>)
 ---
 
 # Overview
